@@ -280,6 +280,28 @@ nav {
     .section-title {
         font-size: 2rem;
     }
+    .stat-number {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 480px) { 
+    .section-title {
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    
+    .line {
+        width: 30px;
+    }
+    
+    .statistics-numbers {
+        flex-direction: column;
+    }
+    
+    .stat-item {
+        width: 100%;
+        padding: 0.5rem;
+    }
 }
 
 /* Adaptation pour les écrans plus petits */
